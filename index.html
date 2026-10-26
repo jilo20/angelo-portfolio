@@ -3,84 +3,184 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0a1010">
-  <meta name="description" content="Angelo R. Bazar is a computer science student building web systems, AI projects, and useful software in Cebu, Philippines.">
-  <title>Angelo Bazar — Developer & Computer Science Student</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="description" content="Portfolio of Angelo R. Bazar, a Computer Science student focused on web development, backend systems, AI, and computer vision.">
+  <title>Angelo R. Bazar | Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="scroll-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#content">Skip to content</a>
+
   <header class="site-header">
-    <div class="wrap header-inner">
-      <nav class="nav" aria-label="Main navigation"><a href="#about">About</a><a href="#work">Work</a><a href="#recognition">Highlights</a><a href="#contact">Contact</a></nav>
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Angelo R. Bazar, home">ARB<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#recognition">Achievements</a>
+        <a href="#participation">Participation</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
-  <main id="top">
-    <div class="wrap hero">
-      <div class="hero-copy reveal">
-        <span class="eyebrow">Hello, I'm Angelo R. Bazar</span>
-        <h1 class="display">Making ideas<br><span class="soft">work in the</span><br><span class="accent">real world.</span></h1>
-        <p class="hero-desc">Computer science student and developer in Cebu, Philippines. I build thoughtful web systems and explore what AI and computer vision can do for everyday problems.</p>
-        <div class="hero-actions"><a class="solid-button" href="#work">Explore my work <span class="arrow">↘</span></a><a class="outline-button" href="#recognition">See highlights <span class="arrow">↗</span></a></div>
-        <div class="hero-under"><span>Based in Cebu, PH</span><span>BS Computer Science</span><span>Open to learning</span></div>
+  <main id="content">
+    <section class="hero container" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Computer Science Student</p>
+        <h1>Angelo R.<br>Bazar</h1>
+        <p class="hero-summary">Web development, backend systems, AI, and computer vision.</p>
+        <div class="hero-links">
+          <a class="button primary" href="https://github.com/jilo20" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a class="button" href="CV.pdf" target="_blank" rel="noopener">View CV</a>
+        </div>
+        <dl class="quick-facts">
+          <div><dt>Education</dt><dd>BS Computer Science · USJ-R</dd></div>
+          <div><dt>Location</dt><dd>Talisay City, Cebu</dd></div>
+          <div><dt>Study</dt><dd>2023 — Present</dd></div>
+        </dl>
       </div>
-      <div class="hero-art reveal" aria-label="Portrait of Angelo Bazar">
-        <div class="portrait-frame"><img src="assets/portrait-cutout.webp" alt="Angelo R. Bazar wearing a suit" fetchpriority="high"></div>
-        <div class="portrait-meta"><strong>Angelo R. Bazar</strong><span>Developer / Student</span></div>
-        <div class="portrait-code">const future = build();</div>
-      </div>
-    </div>
-    <div class="signal" aria-hidden="true"><div class="signal-inner"><span>WEB DEVELOPMENT</span><b>✳</b><span>AI & COMPUTER VISION</span><b>✳</b><span>USEFUL SYSTEMS</span><b>✳</b><span>CREATIVE PROBLEM SOLVING</span><b>✳</b><span>WEB DEVELOPMENT</span><b>✳</b><span>AI & COMPUTER VISION</span><b>✳</b><span>USEFUL SYSTEMS</span><b>✳</b><span>CREATIVE PROBLEM SOLVING</span><b>✳</b></div></div>
-
-    <section id="about" class="wrap about">
-      <div class="reveal"><span class="section-kicker">01 / Who I am</span><h2 class="display">Curious by<br>default<span class="accent">.</span></h2><div class="about-aside">University of San Jose-Recoletos<br>Bachelor of Science in Computer Science<br>2023 — Present</div></div>
-      <div class="about-copy reveal"><p>I'm a fourth-year computer science student at the <span class="accent">University of San Jose-Recoletos</span>. I enjoy understanding how things work and building useful software to solve real problems.</p><p class="small">My main focus is web development, with hands-on work in backend systems, databases, AI, and computer vision. I'm particularly interested in cybersecurity and am studying it alongside C# backend development.</p><div class="stack-label">What I work with / 001</div><div class="skills"><span class="skill">Python</span><span class="skill">JavaScript</span><span class="skill">React</span><span class="skill">Django</span><span class="skill">Laravel</span><span class="skill">FastAPI</span><span class="skill">SQL & databases</span><span class="skill">REST APIs</span><span class="skill">Computer vision</span><span class="skill">AI</span><span class="skill">Git / GitHub</span></div><div class="stack-label">Currently studying / 002</div><div class="skills"><span class="skill">C# backend development</span><span class="skill">Cybersecurity</span></div></div>
+      <figure class="portrait">
+        <img src="assets/angelo-bazar.png" alt="Angelo R. Bazar in formal attire" width="1254" height="1254" fetchpriority="high">
+      </figure>
     </section>
 
-    <section id="work" class="work"><div class="wrap">
-      <div class="section-head reveal"><div><span class="section-kicker">02 / Selected builds</span><h2 class="display">Work in<br><span class="accent">motion.</span></h2></div><p>A look at the systems I've built or helped develop, and the problems behind them.</p></div>
-
-      <article class="feature-project reveal"><div class="feature-text"><span class="project-no">FEATURED PROJECT / 01</span><div class="project-meta"><span>Python</span><span>Scheduling</span><span>In development</span></div><h3 class="project-title">TIMBLE<span class="accent">.</span></h3><p class="project-summary">A timetable planning workspace for subject offerings, open sections, and class schedules. It uses historical enrollment and curriculum data to suggest suitable section numbers.</p><div class="feature-bottom"><strong>THE IDEA →</strong> Make academic planning easier to see, adjust, and act on.<br><br><strong>HIGHLIGHT →</strong> Central Visayas Top 25 qualifier, Philippine Startup Challenge XI.</div></div><div class="feature-media"><img class="screen-main" src="assets/timble-forecast.webp" alt="TIMBLE forecast generation dashboard" loading="lazy"><img class="screen-floating" src="assets/timble-roomloading.webp" alt="TIMBLE room loading timetable" loading="lazy"><img class="feature-sticker" src="assets/timble-award.webp" alt="TIMBLE Top 25 qualifier poster" loading="lazy"><span class="media-caption">Actual TIMBLE screens / forecast + schedule</span></div></article>
-      <details class="project-gallery"><summary>Explore more TIMBLE screens</summary><div class="gallery-row"><a href="assets/timble-forecast.webp" target="_blank" rel="noopener"><img src="assets/timble-forecast.webp" alt="Forecast generation view" loading="lazy"><span>Forecast generation ↗</span></a><a href="assets/timble-roomloading.webp" target="_blank" rel="noopener"><img src="assets/timble-roomloading.webp" alt="Room loading view" loading="lazy"><span>Room loading ↗</span></a><a href="assets/timble-subjects.webp" target="_blank" rel="noopener"><img src="assets/timble-subjects.webp" alt="Subject offerings" loading="lazy"><span>Subject offerings ↗</span></a><a href="assets/timble-import.webp" target="_blank" rel="noopener"><img src="assets/timble-import.webp" alt="Bulk import view" loading="lazy"><span>Bulk import ↗</span></a></div></details>
-
-      <div class="project-grid">
-        <article class="project-card wide reveal"><div class="card-media"><a href="assets/garbage-prototype.webp" target="_blank" rel="noopener" aria-label="Open garbage intensity prototype image"><img src="assets/garbage-prototype.webp" alt="Garbage intensity detection prototype showing source and processed image" loading="lazy"></a><span class="image-label">View prototype ↗</span><img class="stacked-panel" src="assets/garbage-model.webp" alt="Object detection model identifying litter" loading="lazy"></div><div class="card-content"><span class="project-no">PROJECT / 02</span><div class="project-meta"><span>AI</span><span>Computer vision</span><span>Backend</span></div><h3 class="project-title">Garbage<br>Intensification</h3><p class="project-summary">Analyzes hourly snapshots from community CCTV cameras to estimate garbage buildup by area and help local governments manage waste. I worked on the backend and model training.</p></div></article>
-        <article class="project-card small reveal"><div class="card-media"><a href="assets/edutrack.webp" target="_blank" rel="noopener" aria-label="Open EduTrack dashboard image"><img src="assets/edutrack.webp" alt="EduTrack student performance dashboard" loading="lazy"></a><span class="image-label">Dashboard ↗</span></div><div class="card-content"><span class="project-no">PROJECT / 03</span><div class="project-meta"><span>Web app</span><span>Academic analytics</span></div><h3 class="project-title">EduTrack</h3><p class="project-summary">A university student performance tracking system designed to make academic progress easier to monitor.</p><div class="post-note">A clearer view of how students are doing.</div></div></article>
-        <article class="project-card small reveal"><div class="card-media"><a href="assets/printing.webp" target="_blank" rel="noopener" aria-label="Open printing section system image"><img src="assets/printing.webp" alt="University printing section system dashboard" loading="lazy"></a><span class="image-label">System view ↗</span></div><div class="card-content"><span class="project-no">PROJECT / 04</span><div class="project-meta"><span>Operations</span><span>Web system</span></div><h3 class="project-title">Printing Section<br>System</h3><p class="project-summary">Helped digitize print requests, cost computation, and transaction logging for the university printing section.</p><div class="post-note">A smoother path from request to record.</div></div></article>
-        <article class="project-card wide flip reveal"><div class="card-media video-visual"><video controls playsinline preload="none" poster="assets/face-poster.webp" aria-label="Face recognition attendance system demo"><source src="assets/face-attendance-demo.webm" type="video/webm">Your browser does not support video playback.</video></div><div class="card-content"><span class="project-no">PROJECT / 05</span><div class="project-meta"><span>Computer vision</span><span>Attendance</span></div><h3 class="project-title">Face Recognition<br>Attendance</h3><p class="project-summary">An attendance system that identifies students by face and records attendance automatically. The video shows a short excerpt of the working interface.</p><div class="post-note">Watch the demo to see the recognition flow.</div></div></article>
+    <section class="section container" id="skills">
+      <div class="section-heading">
+        <p class="section-label">01</p>
+        <h2>Skills</h2>
       </div>
-      <details class="project-gallery garbage-gallery"><summary>See the garbage detection process</summary><div class="gallery-row"><a href="assets/garbage-model.webp" target="_blank" rel="noopener"><img src="assets/garbage-model.webp" alt="Detection model view" loading="lazy"><span>Model detection ↗</span></a><a href="assets/garbage-flow.webp" target="_blank" rel="noopener"><img src="assets/garbage-flow.webp" alt="Garbage system flow diagram" loading="lazy"><span>System flow ↗</span></a></div></details>
-    </div></section>
+      <div class="skill-groups">
+        <div>
+          <h3>Development</h3>
+          <ul class="tags">
+            <li>Python</li><li>JavaScript</li><li>React</li><li>Django</li><li>Laravel</li><li>FastAPI</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Systems</h3>
+          <ul class="tags">
+            <li>SQL</li><li>REST APIs</li><li>Git / GitHub</li><li>AI</li><li>Computer Vision</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Currently studying</h3>
+          <ul class="tags">
+            <li>Cybersecurity</li><li>C# Backend</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <section id="recognition" class="recognition"><div class="wrap">
-      <div class="recognition-intro reveal"><div><span class="section-kicker">03 / Recognition & credentials</span><h2 class="display">Proof of<br><span class="accent">practice.</span></h2></div><p>Competition results, qualifications, and certificates collected along the way.</p></div>
-      <article class="award-feature reveal"><div class="award-feature-img"><img src="assets/timble-award.webp" alt="Philippine Startup Challenge Central Visayas Top 25 qualifier announcement for TIMBLE" loading="lazy"></div><div class="award-feature-text"><span class="mono">Competition highlight / 2026</span><h3>Top 25<br>Qualifier<span style="color:#57872b">.</span></h3><p>Our TIMBLE team qualified for the Central Visayas Top 25 of the Philippine Startup Challenge XI.</p><div class="award-foot">TIMBLE × UNIVERSITY OF SAN JOSE-RECOLETOS</div></div></article>
-      <div class="award-grid">
-        <article class="award-card reveal" data-index="01"><span class="mono">Competition / 2024</span><h3>2nd<br>Runner-Up</h3><p>SCS Days Computer Quiz Bowl. The certificate of recognition is shown below.</p><span class="award-index">Computer Quiz Bowl</span></article>
-        <article class="award-card reveal" data-index="02"><span class="mono">Competition / 2026</span><h3>Top 10<br>Team</h3><p>SCS Hackathon team placement.</p><span class="award-index">Hackathon</span></article>
-        <article class="award-card reveal" data-index="03"><span class="mono">Language / 2026</span><h3>JLPT<br>N5 Passed</h3><p>Japanese-Language Proficiency Test N5. Certificate shown below.</p><span class="award-index">Language qualification</span></article>
+    <section class="section container" id="projects">
+      <div class="section-heading">
+        <p class="section-label">02</p>
+        <h2>Projects</h2>
       </div>
-      <div class="credential-heading">Certificates on record</div>
-      <div class="certificate-grid">
-        <article class="certificate-card reveal"><img src="assets/certificate-quizbowl.webp" alt="SCS Days 2024 certificate of recognition for Computer Quiz Bowl 2nd Runner-Up" loading="lazy"><div><small>Recognition / 2024</small><h3>SCS Days Quiz Bowl</h3><p>2nd Runner-Up in the Computer Quiz Bowl.</p><a href="assets/certificate-quizbowl.webp" target="_blank" rel="noopener">View certificate ↗</a></div></article>
-        <article class="certificate-card reveal"><img src="assets/certificate-jlpt.webp" alt="Japanese-Language Proficiency Test N5 certificate" loading="lazy"><div><small>Qualification / 2026</small><h3>JLPT N5</h3><p>Passed the Japanese-Language Proficiency Test N5.</p><a href="assets/certificate-jlpt.webp" target="_blank" rel="noopener">View certificate ↗</a></div></article>
-      </div>
-    </div></section>
+      <div class="projects-grid">
+        <article class="project featured">
+          <a class="project-image" href="assets/timble-forecast.webp" target="_blank" rel="noopener" aria-label="Open TIMBLE interface image">
+            <img src="assets/timble-forecast.webp" alt="TIMBLE forecast dashboard" loading="lazy">
+          </a>
+          <div class="project-body">
+            <p class="meta">Python · Scheduling</p>
+            <h3>TIMBLE</h3>
+            <p>Timetable planning for subject offerings, sections, and class schedules.</p>
+            <span class="status">In development</span>
+          </div>
+        </article>
 
-    <section class="learning" id="learning"><div class="wrap">
-      <div class="section-head reveal"><div><span class="section-kicker">04 / Beyond the screen</span><h2 class="display">Learning<br><span class="accent">together.</span></h2></div><p>Participation, collaboration, and hands-on workshops that broadened my perspective.</p></div>
-      <div class="learning-grid">
-        <article class="learning-card reveal"><div class="learning-photo ipbl-cover"><img src="assets/ipbl-photo.webp" alt="Angelo participating in a hands-on International Project-Based Learning activity" loading="lazy"><span>IPBL / HANDS-ON WORK</span></div><div class="story"><span class="project-no">IPBL · AUTONOMOUS QUADRUPED CHALLENGE</span><h3>Project-Based<br>Learning</h3><p>Took part in the International Project-Based Learning (IPBL) Program: Autonomous Quadruped Challenge, collaborating with students and faculty from partner universities at the University of San Jose-Recoletos (August 17-21, 2026).</p><div class="learning-extra"><div><video controls playsinline preload="none" aria-label="IPBL hands-on workshop video"><source src="assets/ipbl-workshop.mp4" type="video/mp4"></video><small>Workshop moment / 01</small></div><div><video controls playsinline preload="none" aria-label="IPBL collaborative work video"><source src="assets/ipbl-collaboration.mp4" type="video/mp4"></video><small>Collaboration / 02</small></div></div><a class="learning-team" href="assets/ipbl-team.webp" target="_blank" rel="noopener" aria-label="Open full IPBL group photo"><img src="assets/ipbl-team.webp" alt="Angelo with fellow IPBL participants holding their certificates" loading="lazy"><span>IPBL / Group photo &nearr;</span></a><div class="learning-subnote">Certificate of participation <a class="artifact-link" href="assets/certificate-ipbl.webp" target="_blank" rel="noopener">View certificate ↗</a></div></div></article>
-        <article class="learning-card reveal"><div class="learning-photo"><img src="assets/paytaca.webp" alt="Attending the Paytaca CashScript blockchain workshop" loading="lazy"><span>PAYTACA / WORKSHOP</span></div><div class="story"><span class="project-no">PAYTACA · CASHSCRIPT SMART CONTRACTS</span><h3>Blockchain Tech<br>Workshop</h3><p>Completed the 2-Day Blockchain Tech Workshop on Coding Smart Contracts in CashScript, presented by Paytaca at the USJ-R Quadricentennial Campus (November 26-27, 2025).</p><div class="learning-extra single"><a href="assets/certificate-blockchain.webp" target="_blank" rel="noopener"><img src="assets/certificate-blockchain.webp" alt="Paytaca Blockchain Tech Workshop certificate of participation" loading="lazy"><small>Certificate of participation ↗</small></a></div><div class="learning-subnote">Hands-on learning beyond the classroom, with new tools and people.</div></div></article>
+        <article class="project">
+          <a class="project-image" href="assets/garbage-prototype.webp" target="_blank" rel="noopener" aria-label="Open Garbage Intensification prototype image">
+            <img src="assets/garbage-prototype.webp" alt="Garbage intensity detection prototype" loading="lazy">
+          </a>
+          <div class="project-body"><p class="meta">Backend · AI</p><h3>Garbage Intensification</h3><p>Estimates garbage buildup from community CCTV snapshots.</p></div>
+        </article>
+
+        <article class="project">
+          <a class="project-image" href="assets/edutrack.webp" target="_blank" rel="noopener" aria-label="Open EduTrack dashboard image">
+            <img src="assets/edutrack.webp" alt="EduTrack student dashboard" loading="lazy">
+          </a>
+          <div class="project-body"><p class="meta">Web App</p><h3>EduTrack</h3><p>Student performance tracking for academic progress.</p></div>
+        </article>
+
+        <article class="project">
+          <a class="project-image" href="assets/printing.webp" target="_blank" rel="noopener" aria-label="Open Printing Section System image">
+            <img src="assets/printing.webp" alt="Printing Section System dashboard" loading="lazy">
+          </a>
+          <div class="project-body"><p class="meta">Operations · Web</p><h3>Printing Section System</h3><p>Print requests, cost computation, and transaction logs.</p></div>
+        </article>
+
+        <article class="project">
+          <div class="project-image video-frame">
+            <video controls playsinline preload="metadata" poster="assets/face-poster.webp" aria-label="Face Recognition Attendance demo">
+              <source src="assets/face-attendance-demo.webm" type="video/webm">
+            </video>
+          </div>
+          <div class="project-body"><p class="meta">Computer Vision</p><h3>Face Recognition Attendance</h3><p>Identifies students and records attendance automatically.</p></div>
+        </article>
       </div>
-    </div></section>
+    </section>
+
+    <section class="section container" id="recognition">
+      <div class="section-heading">
+        <p class="section-label">03</p>
+        <h2>Achievements &amp; Awards</h2>
+      </div>
+
+      <article class="psc-feature">
+        <div class="psc-copy">
+          <p class="meta">Philippine Startup Challenge XI · 2026</p>
+          <h3>Regional Pitching Competition</h3>
+          <p>Central Visayas Top 25 qualifier and regional competition participant with TIMBLE.</p>
+          <p class="event-line">October 24, 2026 · Mandaue City, Cebu</p>
+          <a class="text-link" href="assets/psc-certificate.jpg" target="_blank" rel="noopener">View certificate <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="psc-media">
+          <a class="psc-photo" href="assets/psc-team.jpg" target="_blank" rel="noopener" aria-label="Open Philippine Startup Challenge team photo">
+            <img src="assets/psc-team.jpg" alt="TIMBLE team at the Philippine Startup Challenge XI regional competition" loading="lazy">
+          </a>
+          <a class="psc-certificate" href="assets/psc-certificate.jpg" target="_blank" rel="noopener" aria-label="Open Philippine Startup Challenge certificate">
+            <img src="assets/psc-certificate.jpg" alt="Angelo R. Bazar Philippine Startup Challenge XI certificate of participation" loading="lazy">
+          </a>
+        </div>
+      </article>
+
+      <div class="achievement-list">
+        <article><span>2026</span><div><h3>Top 10 Team</h3><p>SCS Hackathon</p></div></article>
+        <article><span>2026</span><div><h3>JLPT N5</h3><p>Japanese-Language Proficiency Test · Passed</p></div><a href="assets/certificate-jlpt.webp" target="_blank" rel="noopener">Certificate ↗</a></article>
+        <article><span>2024</span><div><h3>2nd Runner-Up</h3><p>SCS Days Computer Quiz Bowl</p></div><a href="assets/certificate-quizbowl.webp" target="_blank" rel="noopener">Certificate ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section container" id="participation">
+      <div class="section-heading">
+        <p class="section-label">04</p>
+        <h2>Participation</h2>
+      </div>
+      <div class="participation-grid">
+        <article>
+          <a href="assets/ipbl-photo.webp" target="_blank" rel="noopener"><img src="assets/ipbl-photo.webp" alt="International Project-Based Learning activity" loading="lazy"></a>
+          <div><p class="meta">2026</p><h3>International Project-Based Learning</h3><p>Autonomous Quadruped Challenge</p><a class="text-link" href="assets/certificate-ipbl.webp" target="_blank" rel="noopener">Certificate ↗</a></div>
+        </article>
+        <article>
+          <a href="assets/paytaca.webp" target="_blank" rel="noopener"><img src="assets/paytaca.webp" alt="Paytaca CashScript workshop" loading="lazy"></a>
+          <div><p class="meta">2025</p><h3>Blockchain Tech Workshop</h3><p>CashScript smart contracts · Paytaca</p><a class="text-link" href="assets/certificate-blockchain.webp" target="_blank" rel="noopener">Certificate ↗</a></div>
+        </article>
+      </div>
+    </section>
   </main>
 
-  <footer id="contact" class="contact"><div class="wrap"><div class="contact-inner"><div><span class="section-kicker">05 / Get in touch</span><h2>Let's build<br>what's <em style="font-style:normal;color:#527b39">next.</em></h2><p>Interested in web development, useful software, or a chance to work together? I'd love to connect.</p></div><div class="contact-links"><a href="https://www.linkedin.com/in/angelo-bazar-0a6748432" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a><a href="tel:+639921558194">+63 992 155 8194 <span>↗</span></a><a href="CV.pdf" download>Download my CV <span>↓</span></a><a href="angelobazar-portfolio.pdf" download>Portfolio PDF <span>↓</span></a></div></div><div class="site-footer"><span>© 2026 Angelo R. Bazar</span><span>Designed around real work and real milestones.</span><a href="#top">Back to top ↑</a></div></div></footer>
-  <script src="script.js" defer></script>
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div><p class="section-label">05</p><h2>Contact</h2></div>
+      <div class="contact-links">
+        <a href="https://github.com/jilo20" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span>github.com/jilo20 ↗</span></a>
+        <a href="https://www.linkedin.com/in/angelo-bazar-0a6748432" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span>angelo-bazar ↗</span></a>
+        <a href="CV.pdf" download><span>CV</span><span>Download ↓</span></a>
+        <a href="angelobazar-portfolio.pdf" download><span>Portfolio PDF</span><span>Download ↓</span></a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Angelo R. Bazar</span><a href="#top">Back to top ↑</a></div>
+  </footer>
 </body>
 </html>
